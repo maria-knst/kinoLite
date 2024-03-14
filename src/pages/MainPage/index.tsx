@@ -1,7 +1,9 @@
+
 const MainPage = () => {
     return (
         <div>
-            Hello World!
+            <p className="text-light">Main Page</p>
+            <a href="/profile">profile</a>
         </div>
     );
 };

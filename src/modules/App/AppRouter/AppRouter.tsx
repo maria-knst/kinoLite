@@ -3,6 +3,8 @@ import { routerConfig } from "./routerConfig";
 import { Suspense } from "react";
 
 const AppRouter = () => {
+    console.log(Object.values(routerConfig));
+    
     return (
         <Routes>
             {Object.values(routerConfig).map(({ element, path }) => (
